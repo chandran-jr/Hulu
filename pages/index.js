@@ -10,9 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Lets Build Hulu2.0</h1>
-
       <Header/>
+
+      
     </div>
   )
 }
