@@ -1,7 +1,7 @@
 
 function Nav() {
   return (
-    <div>Nav</div>
+    <div></div>
   )
 }
 
