@@ -14,6 +14,7 @@ function Thumbnail({result}) {
         />
         <div className=" mx-5 my-5 p-2 font-bold">
             <h2 className="mt-1 text-3xl text-teal-400 transition-all duration-100 ease-in-out font-bold ">{result.title || result.original_name}</h2>
+            <p className="py-2">{result.description || result.overview}</p>
             <p className="flex items-center"> 
             {result.release_date || result.first_air_date} . {" "}
             <ThumbUpIcon className=" text-teal-400 h-5 mx-2"/> {result.vote_count}</p>
