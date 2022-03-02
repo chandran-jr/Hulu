@@ -6,6 +6,7 @@ import requests from '../Utils/requests'
 import { NextPage, GetServerSideProps } from "next";
 
 export default function Home({results}) {
+  console.log(results)
   return (
     <div>
       <Head>
